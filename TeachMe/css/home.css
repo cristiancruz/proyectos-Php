@@ -1,0 +1,175 @@
+
+html body{
+	
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-color: #e9eaed;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+header div div a{
+
+	color: #17cda1;
+	
+}
+
+/* decora el nombre del usuario */
+.userName{
+	font-family: Century Gothic;
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 16px;
+	-webkit-transition:all 500ms ease;
+	-o-trasition:all 500ms ease;
+	transition:all 500ms ease;
+	margin-top: 12px;
+	float: right;
+	
+	margin-right: 50px;
+}
+
+/* decora al pasar el cursos sobre el username */
+.userName:hover{
+	font-family: Century Gothic;
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 16px;
+	-webkit-transition:all 500ms ease;
+	-o-trasition:all 500ms ease;
+	transition:all 500ms ease;
+	
+	
+}
+
+/* Decora el header */
+header{
+
+	font-family: Century Gothic;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom:30px;
+	background-color: #232323;
+	height: 60px;
+	position: fixed;
+
+}
+
+/* Centra la web */
+.wrapper{
+	width:90%;
+	max-width:1200px;
+	margin: auto;
+	overflow:hidden; 
+}
+
+
+/*Decora el logo*/
+header .logo{
+	font-family: Century Gothic;
+	color: #fff;
+	font-size: 30px;
+	line-height: 40px;
+	float: left;
+	margin-top: 5px;
+	font-weight: bold;
+	margin-left: 50px;
+	
+
+}
+
+.fotoPerfil{
+	float: left;
+	box-shadow: 0px 0px 5px  #17cda1;
+}
+
+.userBarra{
+	background-color: #232323;
+	box-sizing: border-box;
+	height: 100%;
+	width: 16%;
+	margin-top: 45px;
+	padding-left: .60em;
+	padding-top: 1em;
+	position: fixed;
+	top: 0;
+	z-index: 20;
+
+
+}
+
+.Texto{ 
+	font-family: Century Gothic; 
+	color:  white;
+	font-size:15px;
+
+}
+
+.centrar{
+
+	margin-top: 80%;
+}
+
+.boton{
+	width:90%;
+	max-width:320px;
+	min-width: 50px;
+	min-height: 25px;
+	max-height: 50px;
+	overflow:hidden; 
+	font-family: Century Gothic;
+	font-size: 13px;
+ 	font-weight: bold;
+	color:  #fff;
+	background-color: #17cda1;
+	border-bottom: #17cda1;
+	border-bottom-color: #17cda1;
+	border-left-color: #17cda1;
+	border-right-color: #17cda1;
+	border-top-color: #17cda1;
+	border-color: #17cda1;
+	border-radius: 5px;
+	
+}
+
+.boto{
+	width:90%;
+	max-width:320px;
+	min-width: 50px;
+	min-height: 25px;
+	max-height: 50px;
+	overflow:hidden; 
+	font-family: Century Gothic;
+	font-size: 13px;
+ 	font-weight: bold;
+	color: #fff;
+	background-color: #17cda1;
+	border-bottom: #17cda1;
+	border-bottom-color: #17cda1;
+	border-left-color: #17cda1;
+	border-right-color: #17cda1;
+	border-top-color: #17cda1;
+	border-color: #17cda1;
+	border-radius: 5px;
+	margin-top: 10px;
+
+}
+div.area-trbajo{
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	background-color: red;
+}
+h1 {
+  font-family: Tahoma;
+  font-size: 60px;
+  color: #2973f5;
+  padding: 25px;
+}

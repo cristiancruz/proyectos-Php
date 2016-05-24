@@ -1,0 +1,257 @@
+
+html body{
+
+	background-image: url('../img/fondo.jpg');
+	/*background-image: url(http://www.portalguard.com/blog/wp-content/uploads/2014/04/woman-on-computer.jpg);*/
+	/*background-image: url(http://cdn.blog-sap.com/analytics/files/2013/01/274662_l_srgb_s_gl.jpg);*/
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-color:#17cda1;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.pc{
+
+	float: right;
+	width: 600px;
+	height: 350px;
+}
+
+.botonL{
+	width:90%;
+	max-width:320px;
+	min-width: 50px;
+	min-height: 25px;
+	max-height: 50px;
+	overflow:hidden; 
+	font-family: Century Gothic;
+	font-size: 13px;
+ 	font-weight: bold;
+	color:  #fff;
+	background-color: #146BC0;
+	border-bottom: #146BC0;
+	border-bottom-color: ##146BC0
+	border-left-color: #146BC0;
+	border-right-color: #146BC0;
+	border-top-color: #146BC0;
+	border-color: #146BC0;
+	border-radius: 5px;
+	margin-top: 13px;
+	margin-left: 10px;
+}
+
+.botonL:hover{
+	width:90%;
+	max-width:320px;
+	min-width: 50px;
+	min-height: 25px;
+	max-height: 50px;
+	overflow:hidden; 
+	font-family: Century Gothic;
+	font-size: 13px;
+ 	font-weight: bold;
+	color:  #fff;
+	background-color: #146BC0;
+	border-bottom: #146BC0;
+	border-bottom-color: #146BC0;
+	border-left-color: white;
+	border-right-color: white;
+	border-top-color: white;
+	border-color: white;
+	border-radius: 5px;
+	margin-top: 13px;
+	margin-left: 10px;
+
+}
+
+
+header{
+
+	font-family: Century Gothic;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom:30px;
+	background-color: #232323;
+	height: 60px;
+	
+}
+header div div a{
+
+	color: #146BC0;
+}
+
+.SFormulario{
+	font-family: Century Gothic;
+	color: #17cda1;
+	font-size: 20px;
+	text-shadow: black 0.1em 0.1em 0.1em;
+
+}
+
+
+/* decora el nombre del usuario */
+.userName{
+	font-family: Century Gothic;
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 16px;
+	-webkit-transition:all 500ms ease;
+	-o-trasition:all 500ms ease;
+	transition:all 500ms ease;
+	margin-top: 12px;
+	float: right;
+	overflow: hidden;
+}
+
+.centrarF{
+	width:80%;
+	max-width:1200px;
+	margin: auto;
+	overflow:hidden;
+	float: left;	
+}
+
+
+.wrapper{
+	width:90%;
+	max-width:1200px;
+	margin: auto;
+	overflow:hidden; 
+}
+
+header .logo{
+	font-family: Century Gothic;
+	color: #fff;
+	font-size: 30px;
+	line-height: 40px;
+	float: left;
+	margin-top: 5px;
+	font-weight: bold;
+	
+
+}
+
+
+header nav{
+	float: right;
+	line-height: 40px;
+	color: #55be00;
+}
+
+.loginCaja{
+	margin-top: 5px;  	
+	font-family: Century Gothic;
+	overflow:hidden; 
+	color: #0f1318;
+	font-size:15px;
+	float: right;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-left: 10px;
+
+}
+
+
+.loginText{
+	margin-top: 5px;  	
+	font-family: Century Gothic;
+	overflow:hidden; 
+	color:  #146BC0;
+	font-size:15px;
+	float: right;
+	margin-left: 10px;
+	font-weight: bold;
+
+}
+
+
+
+div .TFormulario{
+	font-family: Century Gothic;
+	color: #fff;
+	font-size: 60px;
+	font-weight: bold;
+	text-shadow: black 0.1em 0.1em 0.3em;
+	margin-top: 20px;
+}
+
+div .contenido{
+	margin-top: 10px;
+	font-family: Century Gothic;
+	overflow:hidden; 
+	color: white;
+	float: left; 
+	font-size:25px;
+	text-shadow: 0 0 0.2em black, 0 0 0.2em black,
+		0 0 0.2em black
+
+}
+
+
+
+div .cajasTexto{
+	margin-top: 10px;  	s
+	font-family: Century Gothic;
+	overflow:hidden; 
+	color: #0f1318;
+	font-size:25px;
+	float: left;
+}
+
+
+
+div nav #boton{
+	width:90%;
+	max-width:320px;
+	min-width: 320px;
+	min-height: 50px;
+	max-height: 100px;
+	overflow:hidden; 
+	font-family: Century Gothic;
+	font-size: 20px;
+ 	font-weight: bold;
+	color: #0f1318;
+	background-color: #fff600;
+	border-bottom: none;
+	border-bottom-color: #fff600;
+	border-left-color: #fff600;
+	border-right-color: #fff600;
+	border-top-color: #fff600;
+	border-color: #fff600;
+	border-radius: 5px;
+	margin-top: 40px;
+	
+
+}
+
+
+div nav #boton:hover{
+	width:90%;
+	max-width:200px;
+	min-height: 50px;
+	max-height: 100px;
+
+	overflow:hidden; 
+	font-family: Century Gothic;
+	font-size: 20px;
+ 	font-weight: bold;
+	color: #17cda1;
+	background-color: #fff600;
+	border-bottom: none;
+	border-bottom-color: #fff600;
+	border-left-color: #fff600;
+	border-right-color: #fff600;
+	border-top-color: #fff600;
+	border-color: #fff600;
+	border-radius: 5px;
+	margin-top: 40px;
+	
+}
+
+
+
