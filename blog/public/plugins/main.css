@@ -1,0 +1,74 @@
+
+.header-log{
+	background-color: #255782;
+}
+#header-autor, .header-login{
+	margin-top: 20px;
+}
+.header-login{
+margin-right: 20px;
+}
+
+.zoom {
+    transition: width 0.1s, height 0.1s, transform 0.1s;
+    -moz-transition: width 0.5s, height 0.5s, -moz-transform 0.5s;
+    -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 0.5s;
+    -o-transition: width 0.5s, height 0.5s,-o-transform 0.5s;
+}
+.zoom:hover{
+     transform : scale(1.1);
+     -moz-transform : scale(1.1);     
+     -webkit-transform : scale(1.1);  
+     -o-transform : scale(1.1);  
+}
+.text-center #img-autor{
+	margin:auto;
+	padding: 0;
+	max-width: 100px;
+}
+h1 .title-web-page{
+	color:#57e2ca;
+}
+h5{
+	color:#ffffff;
+}
+.title-category{
+	color:#166d62;
+}
+.title-normal{
+	font-weight: bold;
+}
+
+.panel-body .pull-right span{
+	color:#9c0000;
+}
+footer{
+	margin-bottom: 20px;
+}
+.height-aside{
+	margin-top:55px;
+}
+.a-title, .a-title:hover{
+	color:black;
+	text-decoration: none!important;
+}
+.homero{
+	margin-top:20px;
+	width:150px;
+}
+
+
+@media (max-width:767px) {
+
+.header-login{
+	text-align:center;
+	margin-bottom:15px;
+}
+
+}
+
+@media (min-width:992px) {
+#aside{
+	padding:0;
+}
+}
